@@ -1,0 +1,24 @@
+{
+  "name": "ng-bootstrap-to-bootstrap-3",
+  "version": "0.0.1",
+  "description": "A CSS compatibility patch to make ng-bootstrap work with Bootstrap 3",
+  "main": "dist/ng-bootstrap-to-bootstrap-3.min.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ng-bootstrap",
+    "angular",
+    "bootstrap"
+  ],
+  "author": "William Ghelfi <trumbitta@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngTrumbitta/ng-bootstrap-to-bootstrap-3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngTrumbitta/ng-bootstrap-to-bootstrap-3/issues"
+  },
+  "homepage": "https://github.com/ngTrumbitta/ng-bootstrap-to-bootstrap-3#readme"
+}
