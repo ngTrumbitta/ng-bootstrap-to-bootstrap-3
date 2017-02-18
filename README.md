@@ -1,6 +1,11 @@
-# ng-bootstrap to Boostrap 3
+# ng-bootstrap to Bootstrap 3
 
 A CSS compatibility patch to make ng-bootstrap work with Bootstrap 3.
+
+## TODO
+
+- Test and publish NPM package
+- (nice-to-have) Add demos (copy and modify original plunkrs?)
 
 ## Components
 
