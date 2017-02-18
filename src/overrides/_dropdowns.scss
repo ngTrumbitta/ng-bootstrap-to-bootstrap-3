@@ -1,0 +1,13 @@
+// Open state for the dropdown
+// ng-bootstrap compatibility (it's based on Bootstrap 4)
+.show {
+  // Show the menu
+  > .dropdown-menu {
+    display: block;
+  }
+
+  // Remove the outline when :focus is triggered
+  > a {
+    outline: 0;
+  }
+}

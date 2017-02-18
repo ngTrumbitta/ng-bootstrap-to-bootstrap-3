@@ -1,0 +1,20 @@
+//
+// Modals
+// --------------------------------------------------
+
+// .modal-open      - body class for killing the scroll
+// .modal           - container to scroll within
+// .modal-dialog    - positioning shell for the actual modal
+// .modal-content   - actual modal w/ bg and corners and shit
+
+// Container that the modal scrolls within
+.modal {
+    // ng-bootstrap compatibility (it's based on Bootstrap 4)
+    &.show .modal-dialog { @include translate(0, 0) }
+}
+
+// Modal background
+.modal-backdrop {
+    // ng-bootstrap compatibility (it's based on Bootstrap 4)
+    &.show { @include opacity($modal-backdrop-opacity); }
+}

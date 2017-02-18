@@ -4,7 +4,13 @@
   "description": "A CSS compatibility patch to make ng-bootstrap work with Bootstrap 3",
   "main": "dist/ng-bootstrap-to-bootstrap-3.min.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "shx rm -rf dist && shx mkdir dist",
+    "sass-compile": "node-sass src/ng-bootstrap-to-bootstrap-3.scss dist/ng-bootstrap-to-bootstrap-3.min.css --source-map-embed --output-style compressed",
+    "sass-compile:w": "npm run sass-compile -- -w",
+    "prestart": "npm run clean",
+    "start": "npm run sass-compile:w",
+    "predist": "npm run clean",
+    "dist": "npm run sass-compile"
   },
   "keywords": [
     "ng-bootstrap",
@@ -20,5 +26,13 @@
   "bugs": {
     "url": "https://github.com/ngTrumbitta/ng-bootstrap-to-bootstrap-3/issues"
   },
-  "homepage": "https://github.com/ngTrumbitta/ng-bootstrap-to-bootstrap-3#readme"
+  "homepage": "https://github.com/ngTrumbitta/ng-bootstrap-to-bootstrap-3#readme",
+  "devDependencies": {
+    "bootstrap-sass": "3.3.7",
+    "node-sass": "4.5.0",
+    "shx": "0.2.2"
+  },
+  "peerDependencies": {
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.20"
+  }
 }
