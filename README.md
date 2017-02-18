@@ -1,11 +1,19 @@
 # ng-bootstrap to Bootstrap 3
 
-A CSS compatibility patch to make ng-bootstrap work with Bootstrap 3.
+A CSS compatibility patch to make ng-bootstrap work with Bootstrap 3.  
+Include this after Bootstrap 3 CSS.
 
-## TODO
+## Install
 
-- Test and publish NPM package
-- (nice-to-have) Add demos (copy and modify original plunkrs?)
+* Install [ng-bootstrap](https://github.com/ng-bootstrap/ng-bootstrap)
+* Install [Bootstrap v3.3.7](https://github.com/twbs/bootstrap/tree/v3.3.7)
+* Install via NPM:
+
+```sh
+npm install ng-bootstrap-to-bootstrap-3
+```
+
+* Import, require, link, whatever, after Bootstrap 3 CSS. Tested with Bootstrap v3.3.7.
 
 ## Components
 
@@ -13,7 +21,7 @@ A CSS compatibility patch to make ng-bootstrap work with Bootstrap 3.
 - [ ] Alert
 - [ ] Buttons
 - [ ] Carousel
-- [ ] Collapse
+- [ ] **(soon) Collapse**
 - [ ] Datepicker
 - [x] Dropdown
 - [x] Modal
@@ -25,4 +33,8 @@ A CSS compatibility patch to make ng-bootstrap work with Bootstrap 3.
 - [ ] Tabs
 - [ ] Timepicker
 - [ ] Tooltip
-- [ ] Typeahead
+- [ ] **(soon) Typeahead**
+
+## TODO
+
+- (nice-to-have) Add demos (copy and modify original plunkrs?)
