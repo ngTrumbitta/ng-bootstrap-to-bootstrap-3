@@ -28,7 +28,7 @@ Look for comments in the linked demo, but keep in mind that the approach is alwa
 - [ ] Alert
 - [ ] Buttons
 - [ ] Carousel
-- [ ] **(soon) Collapse**
+- [x] [Collapse](http://plnkr.co/edit/RFmsRuUJOJrcmzM6O7Bs?p=preview)
 - [ ] Datepicker
 - [x] [Dropdown](http://plnkr.co/edit/7BTLmeacBXrH84vExqbX?p=preview)
 - [x] [Modal](http://plnkr.co/edit/ITBzkXeUfmb71afvSxmA?p=preview)
