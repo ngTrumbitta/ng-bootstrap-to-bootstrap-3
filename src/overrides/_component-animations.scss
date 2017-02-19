@@ -8,7 +8,6 @@
 // fields in IE7-8. Source: https://github.com/twbs/bootstrap/pull/3552.
 
 .fade {
-    // ng-bootstrap compatibility (it's based on Bootstrap 4)
     &.show {
         opacity: 1;
     }
