@@ -1,0 +1,28 @@
+# New to EditorConfig? Have a look here: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Generic rules for all files
+[*]
+# Unix-style newlines with a newline ending every file
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Matches multiple files with brace expansion notation
+# Set default charset
+charset = utf-8
+
+# 4 space indentation
+indent_style = space
+indent_size = 4
+
+[*.md]
+trim_trailing_whitespace = false
+
+[package.json]
+indent_size = 2
+
+[bower.json]
+indent_size = 2
