@@ -15,7 +15,14 @@ npm install ng-bootstrap-to-bootstrap-3
 
 * Import, require, link, whatever, after Bootstrap 3 CSS. Tested with Bootstrap v3.3.7.
 
-## Components
+## Components (see linked demos)
+
+Look for comments in the linked demo, but keep in mind that the approach is always the same:
+
+1. Unlink Bootstrap 4, link Bootstrap 3.3.7
+1. Link ng-bootstrap-to-bootstrap-3 CSS patch after Bootstrap 3.3.7
+1. Use the markup from Bootstrap 3.3.7 for Angular templates
+1. Use the directives, event handlers, and whatever from ng-bootstrap instead of the `data-something` ones from Bootstrap 3
 
 - [ ] Accordion
 - [ ] Alert
@@ -23,8 +30,8 @@ npm install ng-bootstrap-to-bootstrap-3
 - [ ] Carousel
 - [ ] **(soon) Collapse**
 - [ ] Datepicker
-- [x] Dropdown
-- [x] Modal
+- [x] [Dropdown](http://plnkr.co/edit/7BTLmeacBXrH84vExqbX?p=preview)
+- [x] [Modal](http://plnkr.co/edit/ITBzkXeUfmb71afvSxmA?p=preview)
 - [ ] Pagination
 - [ ] Popover
 - [ ] Progressbar
@@ -37,4 +44,4 @@ npm install ng-bootstrap-to-bootstrap-3
 
 ## TODO
 
-- (nice-to-have) Add demos (copy and modify original plunkrs?)
+- (nice-to-have) Demo page a-la ng-bootstrap
