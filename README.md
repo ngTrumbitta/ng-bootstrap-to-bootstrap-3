@@ -40,7 +40,7 @@ Look for comments in the linked demo, but keep in mind that the approach is alwa
 - [ ] Tabs
 - [ ] Timepicker
 - [ ] Tooltip
-- [ ] **(soon) Typeahead**
+- [x] [Typeahead](http://plnkr.co/edit/Nn54QCzKNcWCfd1n2kAu?p=preview)
 
 ## TODO
 

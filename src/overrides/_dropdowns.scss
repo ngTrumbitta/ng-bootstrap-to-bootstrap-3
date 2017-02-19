@@ -2,11 +2,74 @@
 .show {
     // Show the menu
     > .dropdown-menu {
-      display: block;
+        display: block;
     }
 
     // Remove the outline when :focus is triggered
     > a {
-      outline: 0;
+        outline: 0;
+    }
+}
+
+.dropdown-menu {
+    // Links within the dropdown menu
+    .dropdown-item {
+        display: block;
+        padding: 3px 20px;
+        clear: both;
+        font-weight: normal;
+        line-height: $line-height-base;
+        color: $dropdown-link-color;
+        white-space: nowrap; // prevent links from randomly breaking onto new lines
+
+        // from Bootstrap 4
+        width: 100%;
+        background: 0 0;
+        text-align: inherit;
+        border: 0;
+    }
+}
+
+// Hover/Focus state
+.dropdown-menu .dropdown-item {
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: $dropdown-link-hover-color;
+        background-color: $dropdown-link-hover-bg;
+    }
+}
+
+// Active state
+.dropdown-menu > .active {
+    &,
+    &:hover,
+    &:focus {
+        color: $dropdown-link-active-color;
+        text-decoration: none;
+        outline: 0;
+        background-color: $dropdown-link-active-bg;
+    }
+}
+
+// Disabled state
+//
+// Gray out text and ensure the hover/focus state remains gray
+
+.dropdown-menu > .disabled {
+    &,
+    &:hover,
+    &:focus {
+        color: $dropdown-link-disabled-color;
+    }
+
+    // Nuke hover/focus effects
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        background-color: transparent;
+        background-image: none; // Remove CSS gradient
+        @include reset-filter;
+        cursor: $cursor-disabled;
     }
 }
