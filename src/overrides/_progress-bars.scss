@@ -1,0 +1,39 @@
+//
+// Progress bars
+// --------------------------------------------------
+
+
+// Bar itself
+// -------------------------
+
+// Outer container
+.progress {
+    margin-bottom: 0; // Keep this out of ng-bootstrap-to-bootstrap-3
+}
+
+// Call animation for the active one
+//
+// `.progress.active .progress-bar` is deprecated as of v3.2.0 in favor of the
+// `.progress-bar.active` approach.
+.progress-bar-animated {
+    @include animation(progress-bar-stripes 2s linear infinite);
+}
+
+// Variations
+// -------------------------
+
+.progress-bar.bg-success {
+    @include progress-bar-variant($progress-bar-success-bg);
+}
+
+.progress-bar.bg-info {
+    @include progress-bar-variant($progress-bar-info-bg);
+}
+
+.progress-bar.bg-warning {
+    @include progress-bar-variant($progress-bar-warning-bg);
+}
+
+.progress-bar.bg-danger {
+    @include progress-bar-variant($progress-bar-danger-bg);
+}

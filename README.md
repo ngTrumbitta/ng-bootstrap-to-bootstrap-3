@@ -34,7 +34,7 @@ Look for comments in the linked demo, but keep in mind that the approach is alwa
 - [x] [Modal](http://plnkr.co/edit/ITBzkXeUfmb71afvSxmA?p=preview)
 - [ ] Pagination
 - [ ] Popover
-- [ ] Progressbar
+- [x] [Progressbar](http://plnkr.co/edit/bU8WY2kM2pFGXueCv4S8?p=preview)
 - [ ] Rating
 - [ ] Scrollspy
 - [ ] Tabs
