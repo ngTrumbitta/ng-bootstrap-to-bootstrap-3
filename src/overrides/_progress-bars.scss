@@ -3,14 +3,6 @@
 // --------------------------------------------------
 
 
-// Bar itself
-// -------------------------
-
-// Outer container
-.progress {
-    margin-bottom: 0; // Keep this out of ng-bootstrap-to-bootstrap-3
-}
-
 // Call animation for the active one
 //
 // `.progress.active .progress-bar` is deprecated as of v3.2.0 in favor of the
