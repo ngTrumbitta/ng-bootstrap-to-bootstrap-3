@@ -37,7 +37,7 @@ Look for comments in the linked demo, but keep in mind that the approach is alwa
 - [x] [Progressbar](http://plnkr.co/edit/bU8WY2kM2pFGXueCv4S8?p=preview)
 - [ ] Rating
 - [ ] Scrollspy
-- [ ] Tabs
+- [x] [Tabs](http://plnkr.co/edit/oOIYDASq98sp6vovwhzo?p=preview)
 - [ ] Timepicker
 - [ ] Tooltip
 - [x] [Typeahead](http://plnkr.co/edit/Nn54QCzKNcWCfd1n2kAu?p=preview)
