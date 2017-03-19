@@ -33,7 +33,7 @@ Look for comments in the linked demo, but keep in mind that the approach is alwa
 - [x] [Dropdown](http://plnkr.co/edit/7BTLmeacBXrH84vExqbX?p=preview)
 - [x] [Modal](http://plnkr.co/edit/ITBzkXeUfmb71afvSxmA?p=preview)
 - [ ] Pagination
-- [ ] Popover
+- [x] [Popover](http://plnkr.co/edit/YNqd8Ef4LR8zs597pYAj?p=preview)
 - [x] [Progressbar](http://plnkr.co/edit/bU8WY2kM2pFGXueCv4S8?p=preview)
 - [x] Rating *(It just works, no need for a patch)*
 - [ ] Scrollspy *(Planned feature of ng-bootstrap)*
