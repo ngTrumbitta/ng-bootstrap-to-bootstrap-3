@@ -1,6 +1,6 @@
 {
   "name": "ng-bootstrap-to-bootstrap-3",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "A CSS compatibility patch to make ng-bootstrap work with Bootstrap 3",
   "main": "dist/ng-bootstrap-to-bootstrap-3.min.css",
   "scripts": {
