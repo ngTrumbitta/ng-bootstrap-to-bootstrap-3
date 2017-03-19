@@ -35,8 +35,8 @@ Look for comments in the linked demo, but keep in mind that the approach is alwa
 - [ ] Pagination
 - [ ] Popover
 - [x] [Progressbar](http://plnkr.co/edit/bU8WY2kM2pFGXueCv4S8?p=preview)
-- [ ] Rating
-- [ ] Scrollspy
+- [x] Rating *(It just works, no need for a patch)*
+- [ ] Scrollspy *(Planned feature of ng-bootstrap)*
 - [x] [Tabs](http://plnkr.co/edit/oOIYDASq98sp6vovwhzo?p=preview)
 - [ ] Timepicker
 - [ ] Tooltip
