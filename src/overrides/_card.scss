@@ -1,0 +1,64 @@
+//
+// Base styles
+//
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: $panel-bg;
+  border: 1px solid $panel-default-border;
+  // @include border-radius($panel-border-radius);
+  @include border-top-radius($panel-border-radius);
+  @include border-bottom-radius($panel-border-radius);
+}
+
+.card-block {
+  // Enable `flex-grow: 1` for decks and groups so that card blocks take up
+  // as much space as possible, ensuring footers are aligned to the bottom.
+  flex: 1 1 auto;
+  padding: $panel-body-padding;
+}
+
+
+//
+// Optional textual caps
+//
+
+.card-header {
+  padding: $panel-heading-padding;
+  margin-bottom: 0; // Removes the default margin-bottom of <hN>
+  background-color: $panel-default-heading-bg;
+  border-bottom: 1px solid $panel-inner-border;
+
+  > a {
+      color: inherit;
+  }
+
+  &:first-child {
+    // @include border-radius($panel-border-radius $panel-border-radius 0 0);
+    @include border-top-radius($panel-border-radius);
+    @include border-bottom-radius(0);
+  }
+}
+
+
+//
+// Background variations
+//
+
+.card-primary {
+  @include card-variant($brand-primary, $brand-primary);
+}
+.card-success {
+  @include card-variant($brand-success, $brand-success);
+}
+.card-info {
+  @include card-variant($brand-info, $brand-info);
+}
+.card-warning {
+  @include card-variant($brand-warning, $brand-warning);
+}
+.card-danger {
+  @include card-variant($brand-danger, $brand-danger);
+}

@@ -24,7 +24,7 @@ Look for comments in the linked demo, but keep in mind that the approach is alwa
 1. Use the markup from Bootstrap 3.3.7 for Angular templates
 1. Use the directives, event handlers, and whatever from ng-bootstrap instead of the `data-something` ones from Bootstrap 3
 
-- [ ] Accordion
+- [x] [Accordion](http://plnkr.co/edit/yjBFQ39QWmLjUVtQDkKS?p=preview) *(BS4 structure with BS3 colors and spacing)*
 - [ ] Alert
 - [ ] Buttons
 - [ ] Carousel

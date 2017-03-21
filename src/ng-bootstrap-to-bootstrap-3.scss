@@ -1,10 +1,16 @@
 @import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables';
 @import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins';
 
+@import 'overrides/mixins/cards';
+
 @import 'overrides/component-animations';
 @import 'overrides/dropdowns';
 @import 'overrides/modals';
 @import 'overrides/navbar';
 @import 'overrides/navs';
+
+// from BS4, partially adapted with panel variables and values
+@import 'overrides/card';
+
 @import 'overrides/popovers';
 @import 'overrides/progress-bars';
